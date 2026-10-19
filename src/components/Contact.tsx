@@ -20,7 +20,7 @@ const Contact = () => {
           <div className="contact-box">
             <h4>Social</h4>
             <a
-              href="https://github.com/KUSALS2025"
+              href="https://github.com/kusalar"
               target="_blank"
               data-cursor="disable"
               className="contact-social"
@@ -35,7 +35,6 @@ const Contact = () => {
             >
               Linkedin <MdArrowOutward />
             </a>
-
           </div>
           <div className="contact-box">
             <h2>

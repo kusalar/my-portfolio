@@ -20,9 +20,7 @@ const Career = () => {
               </div>
               <h3>2021</h3>
             </div>
-            <p>
-              Built Small Projects using Html,Css,Js.
-            </p>
+            <p>Built Small Projects using Html,Css,Js.</p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
@@ -33,9 +31,9 @@ const Career = () => {
               <h3>2024-28</h3>
             </div>
             <p>
-              Built Projects using React,django,Node,MongodB,Express,TailwindCss.
-              Used Git,Github for version control.
-              Used Projects for reallife problem solving.
+              Built Projects using
+              React,django,Node,MongodB,Express,TailwindCss. Used Git,Github for
+              version control. Used Projects for reallife problem solving.
             </p>
           </div>
           <div className="career-info-box">
@@ -48,8 +46,13 @@ const Career = () => {
             </div>
             <p>
               Building Solid, a proprietary low-code platform using Angular,
-              Next.js & NestJS. Delivering production-ready CMS-based projects
-              including e-commerce, CRM, and import-export automation systems.
+              Next.js. Contributing to full-stack application development
+              through projects such as Yatri Setu, a tourism platform featuring
+              a Next.js frontend, FastAPI backend, REST APIs, crowd
+              intelligence, travel planning, and safety management.
+              Participating in coding contests and hackathons to enhance
+              problem-solving skills and stay updated with the latest
+              technologies.
             </p>
           </div>
         </div>
