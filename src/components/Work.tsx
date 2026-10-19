@@ -5,10 +5,34 @@ import { MdArrowBack, MdArrowForward } from "react-icons/md";
 
 const projects = [
   {
+    title: "YatriSetu",
+    category: "Travel & Tourism",
+    tools: "React, TypeScript, Python, FastAPI, AI, Maps API",
+    image: "/images/YatriSetu.png",
+  },
+  {
+    title: "HireLens AI",
+    category: "AI & Recruitment",
+    tools: "Python, Flask, OpenAI API, Twilio, Flask-SocketIO",
+    image: "/images/HireLens.png",
+  },
+  {
+    title: "Local Voice Agent (AgentVoice)",
+    category: "Conversational AI & Voice Automation",
+    tools: "Python, LiveKit, Deepgram, Murf Falcon, LLMs",
+    image: "/images/Local Voice Agent.png",
+  },
+  {
     title: "JGECHELPER",
     category: "One Stop Solution for Jgec Students",
     tools: "React.js, Node.js, MongoDB, Express, TailwindCss",
     image: "/images/JGECHELPER.png",
+  },
+  {
+    title: "WildSense",
+    category: "Wildlife & Environmental AI",
+    tools: "Python, AI, Machine Learning",
+    image: "/images/WildSense.png",
   },
   {
     title: "Sarkar Snacks",
@@ -123,7 +147,7 @@ const Work = () => {
                   <div className="carousel-content">
                     <div className="carousel-info">
                       <div className="carousel-number">
-                        <h3>0{index + 1}</h3>
+                        <h3>{String(index + 1).padStart(2, "0")}</h3>
                       </div>
                       <div className="carousel-details">
                         <h4>{project.title}</h4>
